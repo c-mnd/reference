@@ -35,9 +35,9 @@ checksum:\
 generated from output data on slot 0, which is available in every variant.\
 You might wonder, why there's this checksum instead of trytes or trits,\
 simply because we only needed to compare results of the reference (troika) to all the others,\
-so "uint64_t checksum(trit_t)" was the easiest 3-liner, that supported the "=="-operator.\
-And no, if checksums just differ, it doesn't you anything.\
-And yes, if a checksum is like "00000000" or "ffffffff", you'll get a strong hint what went wrong.
+so "uint64_t checksum(trit_t)" was the easiest 3-liner, that supported the "=="-operator,\
+and no, if checksums just differ, it doesn't tell you anything,\
+and yes, if a checksum is like "00000000" or "ffffffff", you'll get a strong hint what went wrong.
 
 test_t.good, test_t.bad:\
 are input vectors randomly distributed over the slots,\

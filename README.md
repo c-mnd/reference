@@ -1,4 +1,4 @@
-fTroika:\
+f<!-- KNCTRIMES -->Troika:\
 single hashing,\
 supports chunks,\
 puts a single lane into two dwords of "t27_t"
